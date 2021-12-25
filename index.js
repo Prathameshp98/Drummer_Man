@@ -51,3 +51,9 @@ for(var i=0; i < drumButtons ; i++){
     });
 
 }
+
+const button = document.querySelector('#button');
+
+button.addEventListener('dblclick', function(el) {
+  el.preventDefault();
+});
