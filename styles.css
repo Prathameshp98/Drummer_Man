@@ -79,3 +79,10 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+
+/* double tap zoom disabled */
+
+.disable-dbl-tap-zoom {
+    touch-action: manipulation;
+  }
