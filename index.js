@@ -52,7 +52,7 @@ for(var i=0; i < drumButtons ; i++){
 
 }
 
-const button = document.querySelector('#button');
+const button = document.querySelector('.drum');
 
 button.addEventListener('dblclick', function(el) {
   el.preventDefault();
